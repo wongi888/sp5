@@ -18,6 +18,8 @@ public class TimeMapperTests {
 	@Setter(onMethod_={@Autowired})
 	private TimeMapper mapper;
 	
+	
+	
 	@Test
 	public void testTime() {
 		log.info(mapper.getTime());
